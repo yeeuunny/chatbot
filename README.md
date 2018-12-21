@@ -11,7 +11,7 @@
     - [키워드] 검색 - 키워드에 해당하는 여러 목록 조회 
     - [키워드] 어때 - 키워드에 해당하는 한 권의 도서 조회
 - 도서 추천
-    - 추천해줘 - 본인 도서 목록 리스트를 기반으로 유사 장르의 도서 추천
+    - 추천해줘 - 본인 도서 목록 리스트 파일을 기반으로 유사 장르의 도서 추천
 
 ## 개발 환경
 | 환경 | 내용 | 버전 |
@@ -43,6 +43,6 @@
 > ### 검색
 ![image](https://user-images.githubusercontent.com/30440457/50329265-c7827080-0539-11e9-8cc7-c05b316aed77.png)
 > ### 어때
-![image](https://user-images.githubusercontent.com/30440457/50329163-4c20bf00-0539-11e9-97a3-0a92e9e7e61d.png)
+![image](https://user-images.githubusercontent.com/30440457/50330127-74122180-053d-11e9-8f15-a57837cc90f0.png)
 > ### 추천
 ![image](https://user-images.githubusercontent.com/30440457/50329190-65c20680-0539-11e9-841f-0aae5de9c998.png)
