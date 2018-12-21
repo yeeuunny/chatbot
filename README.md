@@ -15,10 +15,11 @@
 
 ## 개발 환경
 | 환경 | 내용 | 버전 |
-|:-----| :----- | : ----
-| 언어 | Python | 3.7 
-| IDE  | PyCharm | 2018.3.2
-|라이브러리| BeautifulSoup | 4
+|:-----| :----- | : ---- |
+| 언어 | Python | 3.7 |
+| IDE  | PyCharm | 2018.3.2 |
+|라이브러리| BeautifulSoup | 4 |
+
 > ### requirements
 - numpy
 - click==6.7
