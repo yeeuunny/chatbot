@@ -2,7 +2,7 @@
 2018년 12월 20일 - 2018년 12월 21일  
 slack과 웹 크롤링을 기반으로 한 도서 검색 및 추천 챗봇
 
-## description
+## 기능
 - 목록 조회
     - 베스트셀러
     - 스테디셀러
@@ -12,8 +12,13 @@ slack과 웹 크롤링을 기반으로 한 도서 검색 및 추천 챗봇
     - [키워드] 어때 - 키워드에 해당하는 한 권의 도서 조회
 - 도서 추천
     - 추천해줘 - 본인 도서 목록 리스트를 기반으로 유사 장르의 도서 추천
-    
-## requirements
+
+## 개발 환경
+| 언어 | Python 3.7 | 
+|:-----| :----- |
+| IDE  | PyCharm 2018.3.2|
+
+> ### requirements
 - numpy
 - click==6.7
 - Flask==0.12.2
@@ -30,7 +35,7 @@ slack과 웹 크롤링을 기반으로 한 도서 검색 및 추천 챗봇
 - Werkzeug==0.12.2
 - beautifulsoup4==4.6.3
 
-## screenshot
+## 결과 화면
 > ### 베스트셀러
 ![image](https://user-images.githubusercontent.com/30440457/50329219-8ab67980-0539-11e9-8eb1-f09999f0e84a.png)
 > ### 검색
@@ -39,4 +44,3 @@ slack과 웹 크롤링을 기반으로 한 도서 검색 및 추천 챗봇
 ![image](https://user-images.githubusercontent.com/30440457/50329163-4c20bf00-0539-11e9-97a3-0a92e9e7e61d.png)
 > ### 추천
 ![image](https://user-images.githubusercontent.com/30440457/50329190-65c20680-0539-11e9-841f-0aae5de9c998.png)
-
