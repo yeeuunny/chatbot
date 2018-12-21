@@ -1,33 +1,42 @@
-# H tag
-## hello
-### hello
-#### hello
-##### hello
-###### hello
+# Slack Chatbot 
+2018년 12월 20일 - 2018년 12월 21일  
+slack과 웹 크롤링을 기반으로 한 도서 검색 및 추천 챗봇
 
-hello
-==
-- **index**
-    - one
-        - one one
-    - _two_
-    - three
-    - four
-    - five
+## description
+- 목록 조회
+    - 베스트셀러
+    - 스테디셀러
+    - 신간 예약 판매 BEST
+- 키워드 검색
+    - [키워드] 검색 - 키워드에 해당하는 여러 목록 조회 
+    - [키워드] 어때 - 키워드에 해당하는 한 권의 도서 조회
+- 도서 추천
+    - 추천해줘 - 본인 도서 목록 리스트를 기반으로 유사 장르의 도서 추천
     
-- *index2*
-1. hi
-2. hello
-3. hihello
+## requirements
+- numpy
+- click==6.7
+- Flask==0.12.2
+- itsdangerous==0.24
+- Jinja2==2.9.6
+- MarkupSafe==1.0
+- pyaml==16.9.0
+- PyYAML ==3.12
+- requests-oauthlib==0.8.0
+- requests==2.18.4
+- six==1.10.0
+- slackclient==1.0.2
+- websocket-client==0.37.0
+- Werkzeug==0.12.2
+- beautifulsoup4==4.6.3
 
-[elice]("https://ssafy.elice.io/courses/771/lectures") hyperlink
+## screenshot
+> ### 베스트셀러
+![image](https://user-images.githubusercontent.com/30440457/50329219-8ab67980-0539-11e9-8eb1-f09999f0e84a.png)
+> ### 검색
+![image](https://user-images.githubusercontent.com/30440457/50329265-c7827080-0539-11e9-8cc7-c05b316aed77.png)
+> ### 어때
+![image](https://user-images.githubusercontent.com/30440457/50329163-4c20bf00-0539-11e9-97a3-0a92e9e7e61d.png)
+> ### 추천
+![image](https://user-images.githubusercontent.com/30440457/50329190-65c20680-0539-11e9-841f-0aae5de9c998.png)
 
-![image](https://user-images.githubusercontent.com/30440457/50328210-9ef87780-0535-11e9-9eab-5a9ea9082089.png)
-
-| 이름 |  성적 | 과목 |
-|------|-------|------|
-|김예은| 100점 | 영어 |
-|김예은| 100점 | 수학 |
-|김예은| 100점 | 과학 |
-|김예은| 100점 | 음악 |
-|김예은| 100점 | 체육 |
