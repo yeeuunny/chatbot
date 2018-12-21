@@ -18,7 +18,9 @@
 |:-----:| :-----: | :----: |
 | 언어 | Python | 3.7 |
 | IDE  | PyCharm | 2018.3.2 |
+| 프레임워크  | Flask | 0.12.2 | 
 |라이브러리| BeautifulSoup | 4 |
+|플랫폼| Slack |  |
 
 > ### requirements
 - numpy
@@ -39,7 +41,7 @@
 
 ## 결과 화면
 > ### 베스트셀러
-![image](https://user-images.githubusercontent.com/30440457/50329219-8ab67980-0539-11e9-8eb1-f09999f0e84a.png)
+![image](https://user-images.githubusercontent.com/30440457/50330661-678ec880-053f-11e9-9a2e-879c2bdf7ce2.png)
 > ### 검색
 ![image](https://user-images.githubusercontent.com/30440457/50329265-c7827080-0539-11e9-8cc7-c05b316aed77.png)
 > ### 어때
