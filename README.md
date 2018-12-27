@@ -2,7 +2,7 @@
 - 2018년 12월 20일 - 2018년 12월 21일  
 - Slack과 웹 크롤링을 기반으로 한 도서 검색 및 추천 챗봇
 
-## 기능
+## 스펙 Specification
 - 목록 조회
     - 베스트셀러
     - 스테디셀러
@@ -39,6 +39,12 @@
 - Werkzeug==0.12.2
 - beautifulsoup4==4.6.3
 
+## 회고 Retrospective
+- 키워드 검색 시 해당 웹사이트(yes24)는 EUC-KR 한글 인코딩 기법 사용
+    - 키워드를 파이썬에서 제공하는 EUC-KR 인코딩을 통해 URL의 쿼리 스트링 값으로 사용
+- 도서 추천 시 도서 목록 파일을 읽어와 장르별 소트 통해 가장 많이 읽은 장르의 URL을 크롤링하고 이후 데이터 
+    - 장르를 dictionary 타입으로 저장하여 파이썬의 sorted 사용
+
 ## 결과 화면
 > ### 베스트셀러
 ![image](https://user-images.githubusercontent.com/30440457/50330661-678ec880-053f-11e9-9a2e-879c2bdf7ce2.png)
@@ -48,3 +54,7 @@
 ![image](https://user-images.githubusercontent.com/30440457/50330127-74122180-053d-11e9-8f15-a57837cc90f0.png)
 > ### 추천
 ![image](https://user-images.githubusercontent.com/30440457/50329190-65c20680-0539-11e9-841f-0aae5de9c998.png)
+
+## 보완 계획 Feedback
+- 도서 목록 추가: 본인 도서 목록 리스트를 csv파일로 만들고 새로운 도서를 추가해주는 기능
+- 도서 추천 기능: 본인 도서 목록과 다른 사람들의 도서 목록들을 바탕으로 유사한 하나의 도서를 추천해주는 기능
